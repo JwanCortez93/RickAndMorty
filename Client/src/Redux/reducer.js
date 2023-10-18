@@ -1,7 +1,9 @@
 import { ADD_FAV, FILTER_CARDS, ORDER_CARDS, REMOVE_FAV } from "./action-types";
 
+
+
 const initialState = {
-  myFavorites: [],
+  myFavorites: [...myFavorites],
   allCharacters: [],
 };
 
