@@ -9,7 +9,6 @@ export const addFav = (character) => {
         return dispatch({ type: ADD_FAV, payload: data });
       });
   };
-  return { type: ADD_FAV, payload: character };
 };
 
 export const removeFav = (id) => {

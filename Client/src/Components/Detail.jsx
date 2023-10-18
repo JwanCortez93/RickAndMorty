@@ -25,7 +25,7 @@ export function Detail() {
   return (
     <div>
       {loading ? (
-        <h2>Loading...</h2>
+        <></>
       ) : (
         <div>
           <h1>{character.name}</h1>
